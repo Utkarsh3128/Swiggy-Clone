@@ -1,0 +1,343 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 540px;
+    display: flex;
+    /* position: relative; */
+}
+
+
+.inner-container{
+    width: 680px;
+    padding-right: 60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 73px 0;
+}
+
+.logo{
+    position: relative;
+}
+.logo_img{
+    height: 125px;
+    width: 200px;
+    transform: scale(1.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: .7rem 2rem;
+    border: none;
+    text-align: center;
+}
+
+.login{
+    color: #000;
+}
+
+.login:hover{
+    color: orange;
+}
+
+.sign_up{
+    background-color: #000;
+    color: #fff;
+}
+
+.heading{
+    margin-bottom: 2.9rem;
+}
+.cg-heading h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main-heading h2{
+    font-size: 24px;
+    font-weight: 100;
+    color: #686b78;
+}
+.cg-text::before{
+    content: '';
+    animation: animate infinite 10s 3s;
+    /* animation-timing-function: ease-out; */
+}
+
+@keyframes animate {
+    0%{
+        content: 'Movie Marathon?';
+    }
+    20%{
+        content: 'Game night?';
+    }
+    40%{
+        content: 'Late Night at office?';
+    }
+    60%{
+        content: 'Hungry?';
+    }
+    80%{
+        content: 'Unexpected guests?';
+    }
+    100%{
+        content: 'Cooking gone wrong?';
+    }
+}
+
+.search{
+    display: flex;
+    /* margin-bottom: 1rem; */
+}
+
+#search{
+    padding: 25px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 58px;
+}
+
+.search:focus{
+    /* border: 1px solid #fc8019; */
+    caret-color: #fc8019;
+}
+
+.search::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.search-food{
+    /* padding: 19px;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fc8019;
+    width: 120px;
+}
+
+.search-food a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.city{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a9abb2;
+    text-transform: uppercase;
+    margin-top: 1.3rem;
+}
+
+.cities{
+    margin-top: .9rem;
+}
+
+.cities ul{
+    width: 570px;
+}
+.cities ul li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-right: 8px;
+}
+.inner-container2{
+    background-image: url("images/Swiggy_bg.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    position: absolute;
+    left: calc(50% + 80px);
+    right: 0;
+    top: 0;
+}
+
+
+.main-body{
+    background-color: #2b1e16;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+.images{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.images .min{
+    font-size: 20px;
+    font-weight: 600;
+}
+.images .para{
+    font-size: 15px;
+    width: 260px;
+    color: #e0cbc1;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+ .img img{
+    height: 200px;
+    margin-bottom: 20px;
+ }
+.inner-content{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.content-text{
+    width: 40%;
+}
+
+.content-heading{
+    font-size: 33px;
+    font-weight: 600;
+    width: 300px;
+}
+.content-paragraph{
+    font-size: 20px;
+    font-weight: 300;
+    color: #7e808c;
+    width: 400px;
+    padding: 20px 0px 60px;
+}
+.app-link{
+    display: flex;
+}
+
+.app-link img{
+    height: 54px;
+    margin-right: 20px;
+}
+
+.phone{
+    width: 60%;
+    display: flex;
+}
+
+.phone-img img{
+    height: 489px;
+    width: 384px;
+}
+
+.img2{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5rem;
+}
+
+.footer{
+    background-color: #000;
+    padding-bottom: 10px;
+}
+.inner-footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.ft1{
+    min-width: 300px;
+}
+
+.ft-header{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+.ft-list ul li{
+    list-style-type: none;
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: 100;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.ft-list ul li:hover{
+    font-weight: 600;
+}
+
+.ft-img{
+    width: 200px;
+}
+
+.ft-img:hover{
+    transform: scale(1.1);
+}
+
+.pic1{
+    margin-bottom: 30px;
+}
+.inner-footer2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 17px;
+}
+
+.ft-logo img{
+    width: 140px;
+}
+
+.copyright{
+    color: #fff;
+}
+
+.ft-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.ft-icon img{
+    width: 25px;
+}

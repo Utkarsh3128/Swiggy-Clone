@@ -15,4 +15,4 @@ This is the clone of the Swiggy Landing page built with HTML5 and CSS3.
 * HTML
 * CSS
 
-## Zomato Landing Page Clone
+## Swiggy Landing Page Clone
